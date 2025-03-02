@@ -44,7 +44,7 @@ body {
 .parent-div {
   position: relative;
   width: var(--custom-width);
-  height: calc(1080 * var(--ratio));
+  height: calc(927 * var(--ratio));
   overflow: hidden;
   margin: auto;
   padding: 0px;
