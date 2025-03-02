@@ -1,0 +1,1004 @@
+:root {
+    --custom-width: 100vw;
+    --design-width: 1920;
+    --ratio: calc(var(--custom-width) / var(--design-width));
+  }
+  
+  /* Default classes */
+  .pos-abs {
+    position: absolute;
+  }
+  .fill-parent {
+    width: 100%;
+    height: 100%;
+  }
+  .bg-contain {
+    background-size: contain;
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .bg-auto {
+    background-size: auto;
+  }
+  .bg-crop {
+    background-size: 100% 100%;
+  }
+  .bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+  .pos-init {
+    top: 0px;
+    left: 0px;
+  }
+  .image-div {
+    background-color: transparent;
+    background-position: center;
+  }
+  /* Default classes end */
+  
+  body {
+    margin: 0px 0px;
+    padding: 0px;
+  }
+  .parent-div {
+    position: relative;
+    width: var(--custom-width);
+    height: calc(927 * var(--ratio));
+    overflow: hidden;
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .form-4622335 {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    overflow: hidden;
+    background: #fcffeeff;
+  }
+  .help-center-307818 {
+    width: 100.05%;
+    height: 4.54%;
+    top: 0%;
+    left: -0.05%;
+    z-index: 8;
+    transform: rotate(0deg);
+  }
+  .rectangle-2-I307818_163 {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+    transform: rotate(0deg);
+    background: #627c4fff;
+  }
+  .help-center-I307818_164 {
+    width: 6.19%;
+    height: 61.22%;
+    top: 20.41%;
+    left: 82.72%;
+    z-index: 1;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  .help-center-I307818_164-0 {
+    font-size: calc(20 * var(--ratio));
+  
+    line-height: calc(20 * var(--ratio));
+  
+    font-family: Poppins;
+    font-weight: 500;
+  
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #ffffffff;
+  }
+  .rectangle-33-4622338 {
+    width: 8.54%;
+    height: 95.46%;
+    top: 4.54%;
+    left: 0%;
+    z-index: 2;
+    transform: rotate(0deg);
+    background: #e9faecff;
+  }
+  .rectangle-30-4622336 {
+    width: 91.72%;
+    height: 7.04%;
+    top: 4.54%;
+    left: 8.28%;
+    z-index: 0;
+    transform: rotate(0deg);
+    background: #fcffeeff;
+    box-sizing: border-box;
+    border-left: 0px solid #627c4fff;
+    border-right: 0px solid #627c4fff;
+    border-top: 0px solid #627c4fff;
+    border-bottom: 1px solid #627c4fff;
+  }
+  .nodeBg-4622343 {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: calc(356.1471599228794 * var(--ratio));
+    height: calc(327.51722676994706 * var(--ratio));
+    left: calc(-119.83219410765457 * var(--ratio));
+    top: calc(0 * var(--ratio));
+    object-fit: cover;
+    opacity: 1;
+  }
+  .logo-4622343 {
+    width: 6.2%;
+    height: 20.46%;
+    top: 5.83%;
+    left: 1.2%;
+    z-index: 7;
+    transform: rotate(0deg);
+    overflow: hidden;
+  }
+  .user-icon-4622349-container {
+    width: 2.55%;
+    height: 4.17%;
+    top: 5.83%;
+    left: 86.35%;
+    z-index: 13;
+    transform: rotate(0deg);
+  }
+  .user-icon-359207,
+  .settings-icon-345692,
+  .home-343186,
+  .quiz-343193,
+  .leaderboard-343194,
+  .settings-343195,
+  .logout-387295 {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+  }
+  .ellipse-5-359204,
+  .ellipse-5-345689 {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+    transform: rotate(0deg);
+    border-radius: 50%;
+    background: #627c4fff;
+  }
+  .nodeBg-359205,
+  .nodeBg-345690,
+  .nodeBg-343183,
+  .nodeBg-343137,
+  .nodeBg-343156,
+  .nodeBg-343163 {
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    opacity: 1;
+  }
+  .icons8user30-1-359205 {
+    width: 81.63%;
+    height: 88.89%;
+    top: 6.67%;
+    left: 10.2%;
+    z-index: 1;
+    transform: rotate(0deg);
+    overflow: hidden;
+  }
+  .settings-icon-4622350-container {
+    width: 2.55%;
+    height: 4.17%;
+    top: 5.93%;
+    left: 82.71%;
+    z-index: 14;
+    transform: rotate(0deg);
+  }
+  .icons8settings5-345690 {
+    width: 75.51%;
+    height: 82.22%;
+    top: 8.89%;
+    left: 12.24%;
+    z-index: 1;
+    transform: rotate(0deg);
+    overflow: hidden;
+  }
+  .nodeBg-4622337 {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: calc(1344.3711354885186 * var(--ratio));
+    height: calc(1115.062186394704 * var(--ratio));
+    left: calc(-396.37109545293896 * var(--ratio));
+    top: calc(-50.168803408711014 * var(--ratio));
+    object-fit: cover;
+    opacity: 0.07000000029802322;
+  }
+  .background-netw-4622337 {
+    width: 49.32%;
+    height: 88.52%;
+    top: 11.48%;
+    left: 8.28%;
+    z-index: 1;
+    transform: rotate(0deg);
+    overflow: hidden;
+  }
+  .form-4622348 {
+    width: 40.73%;
+    height: 8.15%;
+    top: 15.46%;
+    left: 35.1%;
+    z-index: 12;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+  .form-4622348-0 {
+    font-size: calc(60 * var(--ratio));
+  
+    line-height: calc(60 * var(--ratio));
+  
+    font-family: Poppins;
+    font-weight: 800;
+  
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #627c4fff;
+  }
+  .form-509622 {
+    width: 69.11%;
+    height: 53.61%;
+    top: 27.5%;
+    left: 19.79%;
+    z-index: 16;
+    transform: rotate(0deg);
+  }
+  .outer-4911073 {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+    transform: rotate(0deg);
+    border-radius: 20px;
+    background: #7d8e81ff;
+  }
+  .settings-nav-4911074 {
+    width: 93.22%;
+    height: 83.07%;
+    top: 8.46%;
+    left: 3.47%;
+    z-index: 1;
+    transform: rotate(0deg);
+    border-radius: 20px;
+    background: #fcffeeff;
+  }
+  .please-fill-the-4911075 {
+    width: 85.08%;
+    height: 6.56%;
+    top: 11.74%;
+    left: 7.46%;
+    z-index: 2;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+  .please-fill-the-4911075-0 {
+    font-size: calc(25 * var(--ratio));
+  
+    line-height: calc(25 * var(--ratio));
+  
+    font-family: Poppins;
+    font-weight: 500;
+  
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #525c54ff;
+  }
+  .number-of-rooms-509557 {
+    width: 14.39%;
+    height: 4.15%;
+    top: 26.42%;
+    left: 7.76%;
+    z-index: 3;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+  .number-of-rooms-509557-0,
+  .electricity-usa-509566-0,
+  .most-used-elect-509562-0,
+  .do-you-use-wash-509570-0,
+  .if-yes-how-ofte-509574-0,
+  .daily-using-app-509578-0,
+  .if-yes-do-you-u-509586-0,
+  .do-you-have-sol-509582-0,
+  .for-what-activi-509590-0,
+  .how-many-switch-509612-0,
+  .number-of-light-509618-0 {
+    font-size: calc(20 * var(--ratio));
+  
+    line-height: calc(20 * var(--ratio));
+  
+    font-family: Poppins;
+    font-weight: 500;
+  
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #525c54ff;
+  }
+  .electricity-usa-509566 {
+    width: 21.85%;
+    height: 4.15%;
+    top: 26.42%;
+    left: 53.5%;
+    z-index: 4;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+  .line-2-509561 {
+    width: 21.55%;
+    height: 0%;
+    top: 30.57%;
+    left: 26.07%;
+    z-index: 15;
+    transform: rotate(0deg);
+    box-shadow:
+      inset 0 0 0 0.5px #7d8e81ff,
+      inset 0 0 0.5px 0 #7d8e81ff,
+      inset 0 0.5px 0 0 #7d8e81ff,
+      inset 0.5px 0 0 0 #7d8e81ff;
+    border-left: 0px solid #7d8e81ff;
+    border-right: 0px solid #7d8e81ff;
+    border-top: 0px solid #7d8e81ff;
+    border-bottom: 0px solid #7d8e81ff;
+  }
+  .line-4-509568 {
+    width: 12.58%;
+    height: 0%;
+    top: 30.57%;
+    left: 78.75%;
+    z-index: 24;
+    transform: rotate(0deg);
+    box-shadow:
+      inset 0 0 0 0.5px #7d8e81ff,
+      inset 0 0 0.5px 0 #7d8e81ff,
+      inset 0 0.5px 0 0 #7d8e81ff,
+      inset 0.5px 0 0 0 #7d8e81ff;
+    border-left: 0px solid #7d8e81ff;
+    border-right: 0px solid #7d8e81ff;
+    border-top: 0px solid #7d8e81ff;
+    border-bottom: 0px solid #7d8e81ff;
+  }
+  .most-used-elect-509562 {
+    width: 24.27%;
+    height: 4.15%;
+    top: 34.02%;
+    left: 7.76%;
+    z-index: 5;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+  .line-3-509564 {
+    width: 12.58%;
+    height: 0%;
+    top: 38.17%;
+    left: 35.04%;
+    z-index: 16;
+    transform: rotate(0deg);
+    box-shadow:
+      inset 0 0 0 0.5px #7d8e81ff,
+      inset 0 0 0.5px 0 #7d8e81ff,
+      inset 0 0.5px 0 0 #7d8e81ff,
+      inset 0.5px 0 0 0 #7d8e81ff;
+    border-left: 0px solid #7d8e81ff;
+    border-right: 0px solid #7d8e81ff;
+    border-top: 0px solid #7d8e81ff;
+    border-bottom: 0px solid #7d8e81ff;
+  }
+  .do-you-use-wash-509570 {
+    width: 25.24%;
+    height: 4.15%;
+    top: 41.62%;
+    left: 8.21%;
+    z-index: 6;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  .if-yes-how-ofte-509574 {
+    width: 19.59%;
+    height: 4.15%;
+    top: 41.62%;
+    left: 53.96%;
+    z-index: 13;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  .line-6-509576 {
+    width: 12.58%;
+    height: 0%;
+    top: 45.42%;
+    left: 70.61%;
+    z-index: 25;
+    transform: rotate(0deg);
+    box-shadow:
+      inset 0 0 0 0.5px #7d8e81ff,
+      inset 0 0 0.5px 0 #7d8e81ff,
+      inset 0 0.5px 0 0 #7d8e81ff,
+      inset 0.5px 0 0 0 #7d8e81ff;
+    border-left: 0px solid #7d8e81ff;
+    border-right: 0px solid #7d8e81ff;
+    border-top: 0px solid #7d8e81ff;
+    border-bottom: 0px solid #7d8e81ff;
+  }
+  .line-10-509614 {
+    width: 12.58%;
+    height: 0%;
+    top: 45.77%;
+    left: 35.04%;
+    z-index: 19;
+    transform: rotate(0deg);
+    box-shadow:
+      inset 0 0 0 0.5px #7d8e81ff,
+      inset 0 0 0.5px 0 #7d8e81ff,
+      inset 0 0.5px 0 0 #7d8e81ff,
+      inset 0.5px 0 0 0 #7d8e81ff;
+    border-left: 0px solid #7d8e81ff;
+    border-right: 0px solid #7d8e81ff;
+    border-top: 0px solid #7d8e81ff;
+    border-bottom: 0px solid #7d8e81ff;
+  }
+  .daily-using-app-509578 {
+    width: 25.24%;
+    height: 4.15%;
+    top: 49.57%;
+    left: 8.21%;
+    z-index: 7;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  .line-7-509580 {
+    width: 59.46%;
+    height: 0%;
+    top: 53.37%;
+    left: 32.03%;
+    z-index: 23;
+    transform: rotate(0deg);
+    box-shadow:
+      inset 0 0 0 0.5px #7d8e81ff,
+      inset 0 0 0.5px 0 #7d8e81ff,
+      inset 0 0.5px 0 0 #7d8e81ff,
+      inset 0.5px 0 0 0 #7d8e81ff;
+    border-left: 0px solid #7d8e81ff;
+    border-right: 0px solid #7d8e81ff;
+    border-top: 0px solid #7d8e81ff;
+    border-bottom: 0px solid #7d8e81ff;
+  }
+  .if-yes-do-you-u-509586 {
+    width: 21.93%;
+    height: 4.15%;
+    top: 56.82%;
+    left: 53.5%;
+    z-index: 12;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  .do-you-have-sol-509582 {
+    width: 21.93%;
+    height: 4.15%;
+    top: 57.17%;
+    left: 8.21%;
+    z-index: 8;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  .line-5-509572 {
+    width: 12.58%;
+    height: 0%;
+    top: 60.97%;
+    left: 33.16%;
+    z-index: 18;
+    transform: rotate(0deg);
+    box-shadow:
+      inset 0 0 0 0.5px #7d8e81ff,
+      inset 0 0 0.5px 0 #7d8e81ff,
+      inset 0 0.5px 0 0 #7d8e81ff,
+      inset 0.5px 0 0 0 #7d8e81ff;
+    border-left: 0px solid #7d8e81ff;
+    border-right: 0px solid #7d8e81ff;
+    border-top: 0px solid #7d8e81ff;
+    border-bottom: 0px solid #7d8e81ff;
+  }
+  .line-8-509588 {
+    width: 12.58%;
+    height: 0%;
+    top: 61.31%;
+    left: 71.59%;
+    z-index: 22;
+    transform: rotate(0deg);
+    box-shadow:
+      inset 0 0 0 0.5px #7d8e81ff,
+      inset 0 0 0.5px 0 #7d8e81ff,
+      inset 0 0.5px 0 0 #7d8e81ff,
+      inset 0.5px 0 0 0 #7d8e81ff;
+    border-left: 0px solid #7d8e81ff;
+    border-right: 0px solid #7d8e81ff;
+    border-top: 0px solid #7d8e81ff;
+    border-bottom: 0px solid #7d8e81ff;
+  }
+  .for-what-activi-509590 {
+    width: 34.74%;
+    height: 4.15%;
+    top: 64.77%;
+    left: 8.21%;
+    z-index: 9;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  .line-9-509592 {
+    width: 46.65%;
+    height: 0%;
+    top: 69.95%;
+    left: 44.69%;
+    z-index: 21;
+    transform: rotate(0deg);
+    box-shadow:
+      inset 0 0 0 0.5px #7d8e81ff,
+      inset 0 0 0.5px 0 #7d8e81ff,
+      inset 0 0.5px 0 0 #7d8e81ff,
+      inset 0.5px 0 0 0 #7d8e81ff;
+    border-left: 0px solid #7d8e81ff;
+    border-right: 0px solid #7d8e81ff;
+    border-top: 0px solid #7d8e81ff;
+    border-bottom: 0px solid #7d8e81ff;
+  }
+  .how-many-switch-509612 {
+    width: 34.74%;
+    height: 4.15%;
+    top: 72.37%;
+    left: 8.21%;
+    z-index: 10;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  .number-of-light-509618 {
+    width: 26.9%;
+    height: 4.15%;
+    top: 72.37%;
+    left: 57.27%;
+    z-index: 11;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  .line-11-509616 {
+    width: 12.58%;
+    height: 0%;
+    top: 76.51%;
+    left: 40.92%;
+    z-index: 20;
+    transform: rotate(0deg);
+    box-shadow:
+      inset 0 0 0 0.5px #7d8e81ff,
+      inset 0 0 0.5px 0 #7d8e81ff,
+      inset 0 0.5px 0 0 #7d8e81ff,
+      inset 0.5px 0 0 0 #7d8e81ff;
+    border-left: 0px solid #7d8e81ff;
+    border-right: 0px solid #7d8e81ff;
+    border-top: 0px solid #7d8e81ff;
+    border-bottom: 0px solid #7d8e81ff;
+  }
+  .line-12-509620 {
+    width: 4.6%;
+    height: 0%;
+    top: 76.51%;
+    left: 86.74%;
+    z-index: 17;
+    transform: rotate(0deg);
+    box-shadow:
+      inset 0 0 0 0.5px #7d8e81ff,
+      inset 0 0 0.5px 0 #7d8e81ff,
+      inset 0 0.5px 0 0 #7d8e81ff,
+      inset 0.5px 0 0 0 #7d8e81ff;
+    border-left: 0px solid #7d8e81ff;
+    border-right: 0px solid #7d8e81ff;
+    border-top: 0px solid #7d8e81ff;
+    border-bottom: 0px solid #7d8e81ff;
+  }
+  .next-4911076 {
+    width: 4.67%;
+    height: 6.04%;
+    top: 81.52%;
+    left: 47.78%;
+    z-index: 14;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  .next-4911076-0 {
+    font-size: calc(25 * var(--ratio));
+  
+    line-height: calc(25 * var(--ratio));
+  
+    font-family: Poppins;
+    font-weight: 500;
+  
+    text-decoration: underline;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #627c4fff;
+  }
+  .rectangle-40-4622340 {
+    width: 8.54%;
+    height: 12.78%;
+    top: 30.09%;
+    left: 0%;
+    z-index: 4;
+    transform: rotate(0deg);
+    border-radius: 0px 50;
+    background: #d2e4d6ff;
+  }
+  .home-4622344-container {
+    width: 3.75%;
+    height: 10.37%;
+    top: 31.2%;
+    left: 2.19%;
+    z-index: 8;
+    transform: rotate(0deg);
+  }
+  .ellipse-7-343182,
+  .ellipse-7-343146 {
+    width: 100%;
+    height: 66.07%;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+    transform: rotate(0deg);
+    border-radius: 50%;
+    background: #627c4fff;
+  }
+  .iconhome-343183 {
+    width: 76.39%;
+    height: 49.11%;
+    top: 8.04%;
+    left: 12.5%;
+    z-index: 1;
+    transform: rotate(0deg);
+    overflow: hidden;
+  }
+  .home-343184 {
+    width: 88.89%;
+    height: 24.11%;
+    top: 75.89%;
+    left: 5.56%;
+    z-index: 2;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  .home-343184-0,
+  .quiz-343148-0,
+  .settings-4622339-0,
+  .leaderboard-343152-0,
+  .settings-343160-0 {
+    font-size: calc(20 * var(--ratio));
+  
+    line-height: calc(20 * var(--ratio));
+  
+    font-family: Poppins;
+    font-weight: 600;
+  
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #000000ff;
+  }
+  .quiz-4622346-container {
+    width: 3.75%;
+    height: 10.37%;
+    top: 46.57%;
+    left: 2.34%;
+    z-index: 10;
+    transform: rotate(0deg);
+  }
+  .icons8quiz50-1-343137 {
+    width: 69.44%;
+    height: 44.64%;
+    top: 10.71%;
+    left: 15.28%;
+    z-index: 2;
+    transform: rotate(0deg);
+    overflow: hidden;
+  }
+  .quiz-343148 {
+    width: 88.89%;
+    height: 24.11%;
+    top: 75.89%;
+    left: 5.56%;
+    z-index: 1;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+  .settings-4622339 {
+    width: 4.38%;
+    height: 2.78%;
+    top: 55.19%;
+    left: 2.66%;
+    z-index: 3;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  .leaderboard-4622345-container {
+    width: 6.93%;
+    height: 10.46%;
+    top: 61.85%;
+    left: 0.78%;
+    z-index: 9;
+    transform: rotate(0deg);
+  }
+  .ellipse-7-343151 {
+    width: 54.14%;
+    height: 65.49%;
+    top: 0%;
+    left: 22.56%;
+    z-index: 0;
+    transform: rotate(0deg);
+    border-radius: 50%;
+    background: #627c4fff;
+  }
+  .icons8leaderboa-343156 {
+    width: 42.11%;
+    height: 49.56%;
+    top: 5.31%;
+    left: 28.57%;
+    z-index: 2;
+    transform: rotate(0deg);
+    overflow: hidden;
+  }
+  .leaderboard-343152 {
+    width: 100%;
+    height: 23.89%;
+    top: 76.11%;
+    left: 0%;
+    z-index: 1;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+  .settings-4622347-container {
+    width: 4.79%;
+    height: 10.46%;
+    top: 77.69%;
+    left: 1.82%;
+    z-index: 11;
+    transform: rotate(0deg);
+  }
+  .ellipse-7-343159 {
+    width: 78.26%;
+    height: 65.49%;
+    top: 0%;
+    left: 10.87%;
+    z-index: 0;
+    transform: rotate(0deg);
+    border-radius: 50%;
+    background: #627c4fff;
+  }
+  .icons8settings5-343163 {
+    width: 57.61%;
+    height: 46.9%;
+    top: 8.85%;
+    left: 21.74%;
+    z-index: 1;
+    transform: rotate(0deg);
+    overflow: hidden;
+  }
+  .settings-343160 {
+    width: 100%;
+    height: 23.89%;
+    top: 76.11%;
+    left: 0%;
+    z-index: 2;
+    transform: rotate(0deg);
+    text-align: center;
+    line-height: 0px;
+  }
+  .logout-3731006 {
+    width: 3.65%;
+    height: 2.78%;
+    top: 92.59%;
+    left: 2.45%;
+    z-index: 5;
+    transform: rotate(0deg);
+  }
+  .logout-I3731006_132281 {
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 0;
+    transform: rotate(0deg);
+    text-align: left;
+    line-height: 0px;
+  }
+  .logout-I3731006_132281-0 {
+    font-size: calc(20 * var(--ratio));
+  
+    line-height: calc(20 * var(--ratio));
+  
+    font-family: Poppins;
+    font-weight: 500;
+  
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+    color: #ca1414ff;
+  }
+
+  
+.horizontal-line {
+    position: absolute;
+    top: -20%; /* Adjust the vertical alignment */
+    left: 100%;
+    width: 300px; /* Adjust the width of the input field */
+    border: 2px solid black; /* Set the border thickness and color */
+    margin-left: 10px; /* Spacing between the text and the input field */
+    border-radius: 4px; /* Optional: makes the input field edges rounded */
+}
+
+
+
+.line-2-509561 {
+  position: absolute;
+  top: -0.5%; /* Adjust the vertical position */
+  left: 97%;
+  width: 200px; /* Adjust the width of the input field */
+  padding: 10px; /* Padding inside the input */
+  border: 2px solid black; /* Border thickness and color */
+  margin-left: 10px; /* Spacing between text and the input field */
+  border-radius: 4px; /* Rounded corners (optional) */
+}
+
+.line-3-509564 {
+  position: absolute;
+  top: -8%; /* Adjust vertical alignment */
+  left: 100%;
+  width: 300px; /* Adjust the width of the input field */
+  padding: 10px; /* Padding inside the input field */
+  border: 2px solid black; /* Border thickness and color */
+  margin-left: 10px; /* Spacing between text and the input field */
+  border-radius: 4px; /* Rounded corners (optional) */
+}
+
+.line-6-509576 {
+  position: absolute;
+  top: -1%; /* Adjust vertical alignment */
+  left: 90%;
+  width: 200px; /* Adjust the width of the rectangle */
+  padding: 10px; /* Padding inside the input box */
+  border: 2px solid black; /* Border to make it rectangular */
+  margin-left: 10px; /* Spacing between text and the input field */
+  background: transparent; /* Optional, can be changed if you need a background color */
+  outline: none; /* Remove the outline when focused */
+  font-size: 16px; /* Adjust the font size */
+  border-radius: 4px; /* Optional: rounded corners for a softer look */
+}
+
+.line-10-509614 {
+  position: absolute;
+  top: 2%; /* Adjust vertical alignment */
+  left: 65%;
+  width: 200px; /* Adjust the width of the rectangle */
+  padding: 10px; /* Padding inside the input box */
+  border: 2px solid black; /* Border to make it rectangular */
+  margin-left: 10px; /* Spacing between text and the input field */
+  background: transparent; /* Optional: Can be changed if you need a background color */
+  outline: none; /* Remove the outline when focused */
+  font-size: 16px; /* Adjust the font size */
+  border-radius: 4px; /* Optional: rounded corners for a softer look */
+}
+
+.line-7-509580 {
+  position: absolute;
+  top: 1%; /* Adjust vertical alignment */
+  left: 70%;
+  width: 250px; /* Adjust the width of the rectangle */
+  padding: 10px; /* Padding inside the input box */
+  border: 2px solid black; /* Border to make it rectangular */
+  margin-left: 10px; /* Spacing between text and the input field */
+  background: transparent; /* Optional, can be changed if you need a background color */
+  outline: none; /* Remove the outline when focused */
+  font-size: 16px; /* Adjust the font size */
+  border-radius: 4px; /* Optional: rounded corners for a smoother look */
+}
+
+.line-5-509572 {
+  position: absolute;
+  top: -2%; /* Adjust vertical alignment */
+  left: 67%;
+  width: 200px; /* Adjust the width of the rectangle */
+  padding: 10px; /* Padding inside the input box */
+  border: 2px solid black; /* Border to make it rectangular */
+  margin-left: 10px; /* Spacing between text and the input field */
+  background: transparent; /* Optional: Can be changed if you need a background color */
+  outline: none; /* Remove the outline when focused */
+  font-size: 16px; /* Adjust the font size */
+  border-radius: 4px; /* Optional: rounded corners for a softer look */
+}
+
+.line-8-509588 {
+  position: absolute;
+  top: 2%; /* Adjust vertical alignment */
+  left: 90%;
+  width: 200px; /* Adjust the width of the rectangle */
+  padding: 10px; /* Padding inside the input box */
+  border: 2px solid black; /* Border to make it rectangular */
+  margin-left: 10px; /* Spacing between text and the input field */
+  background: transparent; /* Optional, can be changed if you need a background color */
+  outline: none; /* Remove the outline when focused */
+  font-size: 16px; /* Adjust the font size */
+  border-radius: 4px; /* Optional: rounded corners for a softer look */
+}
+
+.line-9-509592 {
+  position: absolute;
+  top: 2%; /* Adjust vertical alignment */
+  left: 95%;
+  width: 400px; /* Adjust the width of the rectangle */
+  padding: 10px; /* Padding inside the input box */
+  border: 2px solid black; /* Border to make it rectangular */
+  margin-left: 10px; /* Spacing between text and the input field */
+  background: transparent; /* Optional: Can be changed if you need a background color */
+  outline: none; /* Remove the outline when focused */
+  font-size: 16px; /* Adjust the font size */
+  border-radius: 4px; /* Optional: rounded corners for a smoother look */
+}
+
+.line-11-509616 {
+  position: absolute;
+  top: 2%; /* Adjust vertical alignment */
+  left: 85%;
+  width: 170px; /* Adjust the width of the rectangle */
+  padding: 10px; /* Padding inside the input box */
+  border: 2px solid black; /* Border to make it rectangular */
+  margin-left: 10px; /* Spacing between text and the input field */
+  background: transparent; /* Optional, can be changed if you need a background color */
+  outline: none; /* Remove the outline when focused */
+  font-size: 16px; /* Adjust the font size */
+  border-radius: 4px; /* Optional: rounded corners for a softer look */
+}
+
+.line-12-509620 {
+  position: absolute;
+  top: 2%; /* Adjust vertical alignment */
+  left: 96%;
+  width: 110px; /* Adjust the width of the rectangle */
+  padding: 10px; /* Padding inside the input box */
+  border: 2px solid black; /* Border to make it rectangular */
+  margin-left: 10px; /* Spacing between text and the input field */
+  background: transparent; /* Optional, can be changed if you need a background color */
+  outline: none; /* Remove the outline when focused */
+  font-size: 14px; /* Adjust the font size */
+  border-radius: 4px; /* Optional: rounded corners for a smoother look */
+}
