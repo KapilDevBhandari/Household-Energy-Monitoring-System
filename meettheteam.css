@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+  background-color: #eef2d9; /* Light greenish background */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.header {
+  display: flex;
+  justify-content: center; /* Center everything in the header */
+  align-items: center; /* Center the content vertically */
+  padding-top: 30px;
+}
+
+.HI {
+  padding: clamp(10px, 5vw, 80px);
+  position: absolute; /* This will place the image at the start */
+  left: 0;
+}
+
+.HH {
+  text-align: center; /* Center the text inside .HH */
+  flex: 1; /* Allows the heading to take up remaining space */
+}
+
+.Topic {
+  font-family: Poppins, sans-serif; /* Ensure the font family is set */
+  color: #627c4f;
+  font-size: 2em;
+}
+
+/* Team section */
+.team {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.team2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+/* Image styling */
+.img {
+  border-radius: 100%;
+  max-width: 150px;
+  padding: 25px;
+}
+
+.h {
+  margin-top: 0px;
+  text-align: center;
+}
+
+.p {
+  text-align: center;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For medium-sized screens (tablets, 768px and above) */
+@media (max-width: 768px) {
+  .team {
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center; /* Center the items in the team section */
+  }
+
+  .team2 {
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center; /* Center the items in the second team section */
+  }
+
+  .IH {
+    width: 100%; /* Ensure each item takes full width on smaller screens */
+    text-align: center; /* Center the text inside each item */
+  }
+
+  .img {
+    max-width: 120px; /* Reduce the image size on smaller screens */
+    padding: 15px; /* Adjust padding */
+  }
+
+  .Topic {
+    font-size: 1.5em; /* Adjust the font size for smaller screens */
+  }
+}
+
+/* For smaller screens (phones, 480px and below) */
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column; /* Stack header items vertically */
+    padding-top: 15px;
+  }
+
+  .HI {
+    position: static; /* Remove absolute positioning on smaller screens */
+    padding: 15px;
+  }
+
+  .HH {
+    margin-top: 15px; /* Add space between items */
+  }
+
+  .team {
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center; /* Center team items */
+  }
+
+  .team2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center; /* Center the second team section */
+  }
+
+  .IH {
+    width: 100%; /* Make each item take full width */
+    margin-bottom: 20px; /* Add spacing between items */
+  }
+
+  .img {
+    max-width: 120px; /* Reduce the image size on smaller screens */
+    padding: 15px; /* Adjust padding */
+  }
+
+  .Topic {
+    font-size: 1.2em; /* Make the font size smaller */
+  }
+}

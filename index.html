@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="beforenavbar">
+    </div>
+    <div class="container-fluid">
+      <!-- Navbar Section -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/e5be/0df9/c3d926c1ffa3cd017ec2a3faff8fc2d1?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=CEB4pO2CjfIVUAbYvq1wO61Q1RlvI2JKHxPnpz-~4qWXhg1BJLK6IUpnwsuAyaDp8Hk~H88UQywp3uw2z9A-yxnMm5jarXsHyBneaz7exb6UWbt-pQj5OFKGzqZTM0mjQp49YfqD4EZqJqDqsd6GvlCvwwe0pv5wQQ93QLCV9B-cEEPBmjcOvI-TSU7QurfZ1x82iRMQPX3rIwMpYmdewKxfJwATusRs2HoH~jG6tUUI43JLj54Dsc5~zgBV5ff6mdN8X5DdyEwpl9dPr12C7AfkR8CLtfwtEAz30iPrlDzULx92NBk7IvpCoYxXGVU8F~jANq5-OeurDodbWFbCtg__"
+              alt="Logo"
+              class="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Centered items -->
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./whoweare.html">Who We Are</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./whatweoffer.html">What We Offer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./meettheteam.html">Our Team</a>
+              </li>
+            </ul>
+            <!-- Right-aligned items -->
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link btn btn-primary mx-2" href="./login.html">Login</a>
+              </li>             
+            </ul>
+          </div>          
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h1>Small Changes, Big Savings<br />Conserve Energy!</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              pellentesque sit amet velit quis porttitor.
+            </p>
+            <button class="btn btn-primary" id="requestDemoBtn">Request Demo</button>
+          </div>
+          
+          <!-- Modal for Email Input (optional if you prefer a modal over a prompt) -->
+          <div id="emailModal" style="display: none;">
+            <h2>Please Enter Your Email</h2>
+            <input type="email" id="userEmail" placeholder="Enter your email" />
+            <button id="submitEmail">Submit</button>
+            <button id="cancelEmail">Cancel</button> 
+          </div>
+             
+          <div class="col-md-6">
+            <img
+              src="./image/Group 1.png"
+              alt="Hero Image"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features-section">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="feature-card">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/9e70/cf96/02679cba42072e845159ba3acf179421?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=GluDW4FkLzzFblbAmSASL6WqVrLE9XIjf7C5kWv1jbGLQlw4V-1eZxpR-9OGEgKQtPNoKEbnk3xSbT6e48uToXTBLn93B-gsDSr0k9ezAAJ7OUb84ZdmXCV7oAVZdldcGJyIMh6AOVAPjbKwGNZX0I7lRrU7b5gfML4dKJqA7s4JRwVZFKkjs~~KZBhPDI3QKdQ3hVBkSJiooRtdT5KfMfbWrrVuRVbYl91rMzHWuwCxUi5ctQ2TbYWMYTh8mlKD0oRvruqC5LSJ4lazjg7-qBxyz3dwcrE8g544n3To~yf55WVIeWyVtb~WI3A16BGEf9Y0HCeaDccxukPCrrF1Ew__"
+                alt="Bill Estimation"
+              />
+              <h3>Bill Estimation</h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature-card">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/f223/c090/7b73bc8ca7abf93cb0960f54465b80d4?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ttX13DQwttGsAIFy3SvqPgrcFBO8IY2NJxFG3Ho19j47ZbPZelDY5JUVSAqfv6kcjltViaHuTmrOr93wOEB0Ny0jXzh-evf4QK--rT-8-W8BTT-PdyuwADO3JoiS6tyOWsbJlcTdjRlwstOj-rAL6WJnmRk349gHWSMAL9ji71b4TQQQCQhrrcu8Psb4sSch6BWSm6f11lbm9cI9lZJwnHlfU95OlWghCP6W6UYD6V3aJCqNvhUlQD5VByaR8o1g2tPC-hAoBGj5iw9Uce3EoVnEOGXc6kArDrv3SWwJU~I8CtlSX7QrFTiRf549PG9-vEXMoW4GYk-hCk6e0XNB-Q__"
+                alt="Carbon Emission"
+              />
+              <h3>Carbon Emission</h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="feature-card">
+              <img
+                src="https://s3-alpha-sig.figma.com/img/3211/7d56/0795e64348797a8d73553ef8583ff134?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=HZeBsfKehafhYQU~SDuHp1CE6oRTcUaD6upJWy7ReaiYdYLATIMaSZ-E-QolkOx847Yy82KhsMfNY13MPWXFU-8tlvI1Ys~hg9Y7xkml8kHuaLB4PAbHGQi4R7b0KPcOtfu7tQxpohz26YLyvvqO83D7F~zhMo59XJniAz~7FKsRIMo7nbRoI3qZkuMvlbpXj2TEB8JGAasM7z6e-gWTB3riZ0JCkiRhz4lI1Hlr-RId~cI~KWKze~rRgRvr19ugQR9nQxeDQGEFvklzN3Nd770gcVAHDiIv5jlK3TYGf3AH-rglD~PimD0pXW3IGH8t-7T-y2tuWjzwMA0gv-2buQ__"
+                alt="Visualization"
+              />
+              <h3>Visualization</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="footer-section">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p>Copyright © 2025. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
