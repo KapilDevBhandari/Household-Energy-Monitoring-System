@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="beforenavbar">
+  </div>
+  <div class="container-fluid">
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img src="image/Logo.png" alt="Logo" class="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!-- Centered items -->
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./whoweare.html">Who We Are</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./whatweoffer.html">What We Offer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./meettheteam.html">Our Team</a>
+            </li>
+          </ul>
+          <!-- Right-aligned items -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary mx-2" href="./login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary mx-2" href="./signup.html">SignUp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h1>Small Changes, Big Savings<br />Conserve Energy!</h1>
+          <p>
+            Every step toward energy conservation matters. Turn off lights when not in use, switch to energy-efficient appliances, and track your usage with our tools.
+          </p>
+          <button class="btn btn-primary" id="requestDemoBtn">Request Demo</button>
+        </div>
+
+        <!-- Modal for Email Input (optional if you prefer a modal over a prompt) -->
+        <div id="emailModal" style="display: none;">
+          <h2>Please Enter Your Email</h2>
+          <input type="email" id="userEmail" placeholder="Enter your email" />
+          <button id="submitEmail">Submit</button>
+          <button id="cancelEmail">Cancel</button>
+        </div>
+
+        <div class="col-md-6">
+          <img src="./image/Group 1.png" alt="Hero Image" class="img-fluid" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="feature-card">
+            <img src="image/bill.png" alt="Bill Estimation" />
+            <h3>Bill Estimation</h3>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card">
+            <img src="image/carbon emission.png" alt="Carbon Emission" />
+            <h3>Carbon Emission</h3>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-card">
+            <img src="image/visualization.png" alt="Visualization" />
+            <h3>Visualization</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p>Copyright © 2025. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
