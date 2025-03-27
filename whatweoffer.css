@@ -1,0 +1,126 @@
+body {
+  background-color: #eef2d9; /* Light greenish background */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.header {
+  display: flex;
+  justify-content: center; /* Center everything in the header */
+  align-items: center; /* Center the content vertically */
+  padding-top: 30px;
+}
+
+.HI {
+  padding: clamp(10px, 5vw, 80px);
+  position: absolute; /* This will place the image at the start */
+  left: 0;
+}
+
+.HH {
+  text-align: center; /* Center the text inside .HH */
+  flex: 1; /* Allows the heading to take up remaining space */
+}
+
+.Topic {
+  font: Poppins;
+  color: #627c4f;
+  font-size: 2em;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #627c4f; /* Apply the color */
+  color: #eef2d9; /* Make text readable */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+  height: 386px;
+  width: 418px;
+}
+
+.DI {
+  background-color: #eef2d9; /* Light creamy color */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 108.5px;
+  height: 217px;
+  width: 312px;
+}
+
+.tx {
+  color: black;
+  font-size: 1.3em;
+}
+
+.img {
+  height: 175px; /* Set a fixed height for all images */
+}
+
+.img1 {
+  height: 134px;
+}
+
+.p1 {
+  font-size: large;
+}
+
+.body {
+  display: flex;
+  justify-content: space-around;
+  padding-top: clamp(10px, 5vw, 80px);
+  flex-wrap: wrap;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+  .box {
+    width: 45%; /* Make boxes take up 45% of the width on smaller screens */
+    min-width: 300px; /* Minimum width to prevent the boxes from getting too small */
+  }
+
+  .DI {
+    max-width: 80%; /* Limit the width of DI to 80% of its parent .box */
+    max-height: 180px; /* Adjust max-height to fit within the new box size */
+  }
+
+  .tx {
+    font-size: 1.1em; /* Decrease the font size on smaller screens */
+  }
+
+  .img {
+    height: 150px; /* Decrease image height for smaller screens */
+  }
+
+  .img1 {
+    height: 120px; /* Adjust height of .img1 on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    width: 100%; /* Make the boxes take up the full width on mobile screens */
+    min-width: 250px; /* Minimum width for mobile */
+  }
+
+  .DI {
+    max-width: 90%; /* Make DI take up 90% of the .box width on small screens */
+    max-height: 150px; /* Adjust max-height to fit within the box */
+  }
+
+  .tx {
+    font-size: 1em; /* Further reduce font size for mobile screens */
+  }
+
+  .img {
+    height: 130px; /* Adjust image height further for mobile screens */
+  }
+
+  .img1 {
+    height: 110px; /* Adjust height of .img1 for mobile screens */
+  }
+}
